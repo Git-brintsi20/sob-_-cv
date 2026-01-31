@@ -1,0 +1,254 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --background: #0A0A0A; /* Preserved from existing */
+  --background-light: #111111; /* Preserved from existing */
+  --foreground: #FFFFFF; /* Preserved from existing */
+  --foreground-muted: #9CA3AF; /* Preserved from existing */
+  --card: #1A1A1A; /* Preserved from existing */
+  --card-foreground: #FFFFFF; /* Preserved from existing */
+  --popover: oklch(1 0 0); /* From diff */
+  --popover-foreground: oklch(0.145 0 0); /* From diff */
+  --primary: oklch(0.205 0 0); /* From diff */
+  --primary-foreground: oklch(0.985 0 0); /* From diff */
+  --secondary: oklch(0.97 0 0); /* From diff */
+  --secondary-foreground: oklch(0.205 0 0); /* From diff */
+  --muted: oklch(0.97 0 0); /* From diff */
+  --muted-foreground: oklch(0.556 0 0); /* From diff */
+  --accent: #3B82F6; /* Preserved from existing */
+  --accent-foreground: oklch(0.205 0 0); /* From diff */
+  --destructive: #EF4444; /* Preserved from existing */
+  --destructive-foreground: #FFFFFF; /* Preserved from existing */
+  --border: #1F2937; /* Preserved from existing */
+  --input: oklch(0.922 0 0); /* From diff */
+  --ring: oklch(0.708 0 0); /* From diff */
+  --bitcoin: #F7931A; /* Preserved from existing */
+  --bitcoin-dark: #E87E0A; /* Preserved from existing */
+  --chart-1: oklch(0.646 0.222 41.116); /* From diff */
+  --chart-2: oklch(0.6 0.118 184.704); /* From diff */
+  --chart-3: oklch(0.398 0.07 227.392); /* From diff */
+  --chart-4: oklch(0.828 0.189 84.429); /* From diff */
+  --chart-5: oklch(0.769 0.188 70.08); /* From diff */
+  --radius: 0.625rem; /* Preserved from existing (same as diff) */
+  --sidebar: oklch(0.985 0 0); /* From diff */
+  --sidebar-foreground: oklch(0.145 0 0); /* From diff */
+  --sidebar-primary: oklch(0.205 0 0); /* From diff */
+  --sidebar-primary-foreground: oklch(0.985 0 0); /* From diff */
+  --sidebar-accent: oklch(0.97 0 0); /* From diff */
+  --sidebar-accent-foreground: oklch(0.205 0 0); /* From diff */
+  --sidebar-border: oklch(0.922 0 0); /* From diff */
+  --sidebar-ring: oklch(0.708 0 0); /* From diff */
+}
+
+.dark {
+  --background: #0A0A0A; /* Preserved from existing */
+  --background-light: #111111; /* Preserved from existing */
+  --foreground: #FFFFFF; /* Preserved from existing */
+  --foreground-muted: #9CA3AF; /* Preserved from existing */
+  --card: #1A1A1A; /* Preserved from existing */
+  --card-foreground: #FFFFFF; /* Preserved from existing */
+  --popover: oklch(0.145 0 0); /* From diff */
+  --popover-foreground: oklch(0.985 0 0); /* From diff */
+  --primary: oklch(0.985 0 0); /* From diff */
+  --primary-foreground: oklch(0.205 0 0); /* From diff */
+  --secondary: oklch(0.269 0 0); /* From diff */
+  --secondary-foreground: oklch(0.985 0 0); /* From diff */
+  --muted: oklch(0.269 0 0); /* From diff */
+  --muted-foreground: oklch(0.708 0 0); /* From diff */
+  --accent: #3B82F6; /* Preserved from existing */
+  --accent-foreground: oklch(0.985 0 0); /* From diff */
+  --destructive: #EF4444; /* Preserved from existing */
+  --destructive-foreground: #FFFFFF; /* Preserved from existing */
+  --border: #1F2937; /* Preserved from existing */
+  --input: oklch(0.269 0 0); /* From diff */
+  --ring: oklch(0.439 0 0); /* From diff */
+  --bitcoin: #F7931A; /* Preserved from existing */
+  --bitcoin-dark: #E87E0A; /* Preserved from existing */
+  --chart-1: oklch(0.488 0.243 264.376); /* From diff */
+  --chart-2: oklch(0.696 0.17 162.48); /* From diff */
+  --chart-3: oklch(0.769 0.188 70.08); /* From diff */
+  --chart-4: oklch(0.627 0.265 303.9); /* From diff */
+  --chart-5: oklch(0.645 0.246 16.439); /* From diff */
+  --sidebar: oklch(0.205 0 0); /* From diff */
+  --sidebar-foreground: oklch(0.985 0 0); /* From diff */
+  --sidebar-primary: oklch(0.488 0.243 264.376); /* From diff */
+  --sidebar-primary-foreground: oklch(0.985 0 0); /* From diff */
+  --sidebar-accent: oklch(0.269 0 0); /* From diff */
+  --sidebar-accent-foreground: oklch(0.985 0 0); /* From diff */
+  --sidebar-border: oklch(0.269 0 0); /* From diff */
+  --sidebar-ring: oklch(0.439 0 0); /* From diff */
+}
+
+@theme inline {
+  --font-sans: 'Geist', 'Geist Fallback'; /* Preserved from existing */
+  --font-mono: 'Geist Mono', 'Geist Mono Fallback'; /* Preserved from existing */
+  --color-background: var(--background);
+  --color-background-light: var(--background-light); /* Preserved from existing */
+  --color-foreground: var(--foreground);
+  --color-foreground-muted: var(--foreground-muted);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover); /* From diff */
+  --color-popover-foreground: var(--popover-foreground); /* From diff */
+  --color-primary: var(--primary); /* From diff */
+  --color-primary-foreground: var(--primary-foreground); /* From diff */
+  --color-secondary: var(--secondary); /* From diff */
+  --color-secondary-foreground: var(--secondary-foreground); /* From diff */
+  --color-muted: var(--muted); /* From diff */
+  --color-muted-foreground: var(--muted-foreground); /* From diff */
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground); /* From diff */
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input); /* From diff */
+  --color-ring: var(--ring); /* From diff */
+  --color-bitcoin: var(--bitcoin); /* Preserved from existing */
+  --color-bitcoin-dark: var(--bitcoin-dark); /* Preserved from existing */
+  --color-chart-1: var(--chart-1); /* From diff */
+  --color-chart-2: var(--chart-2); /* From diff */
+  --color-chart-3: var(--chart-3); /* From diff */
+  --color-chart-4: var(--chart-4); /* From diff */
+  --color-chart-5: var(--chart-5); /* From diff */
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar); /* From diff */
+  --color-sidebar-foreground: var(--sidebar-foreground); /* From diff */
+  --color-sidebar-primary: var(--sidebar-primary); /* From diff */
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground); /* From diff */
+  --color-sidebar-accent: var(--sidebar-accent); /* From diff */
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground); /* From diff */
+  --color-sidebar-border: var(--sidebar-border); /* From diff */
+  --color-sidebar-ring: var(--sidebar-ring); /* From diff */
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  /* Smooth scroll behavior */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Bitcoin orange glow effect */
+  .bitcoin-glow {
+    box-shadow: 0 0 20px rgba(247, 147, 26, 0.5);
+  }
+
+  /* Gradient text */
+  .gradient-text {
+    background: linear-gradient(135deg, #F7931A, #3B82F6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Fade in animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-out;
+  }
+
+  /* Slide in from left */
+  @keyframes slideInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .animate-slide-in-left {
+    animation: slideInLeft 0.6s ease-out;
+  }
+
+  /* Slide in from right */
+  @keyframes slideInRight {
+    from {
+      opacity: 0;
+      transform: translateX(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .animate-slide-in-right {
+    animation: slideInRight 0.6s ease-out;
+  }
+
+  /* Bitcoin icon pulse */
+  @keyframes bitcoinPulse {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+  }
+
+  .animate-bitcoin-pulse {
+    animation: bitcoinPulse 2s ease-in-out infinite;
+  }
+
+  /* Gradient border animation */
+  .gradient-border {
+    position: relative;
+    background: var(--card);
+    border: 2px solid transparent;
+    background-clip: padding-box;
+  }
+
+  .gradient-border::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(135deg, #F7931A, #3B82F6);
+    border-radius: inherit;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .gradient-border:hover::before {
+    opacity: 1;
+  }
+
+  /* Text balance */
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .text-pretty {
+    text-wrap: pretty;
+  }
+}
