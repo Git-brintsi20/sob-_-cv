@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import Image from 'next/image';
 import { Badge } from '@/components/ui/badge';
 import { Card } from '@/components/ui/card';
 
@@ -13,7 +14,7 @@ interface StatCounter {
 const stats: StatCounter[] = [
   { label: 'Bitcoin Projects', value: '4' },
   { label: 'CGPA', value: '8.1' },
-  { label: 'LeetCode Problems', value: '200', suffix: '+' },
+  { label: 'LeetCode Problems', value: '250', suffix: '+' },
   { label: 'SOB Applicant', value: '2026' },
 ];
 
@@ -59,10 +60,17 @@ export default function About() {
         <h2 className="text-4xl md:text-5xl font-bold mb-16 text-center text-foreground">About Me</h2>
 
         <div className="grid md:grid-cols-2 gap-12 mb-16 items-center">
-          {/* Professional image placeholder */}
+          {/* Professional image */}
           <div className={`transform transition-all duration-1000 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-12'}`}>
-            <div className="aspect-square rounded-lg bg-gradient-to-br from-bitcoin to-accent overflow-hidden flex items-center justify-center">
-              <div className="text-6xl text-white font-bold">HB</div>
+            <div className="aspect-square rounded-lg overflow-hidden shadow-2xl">
+              <Image 
+                src="/profile_image.jpeg"
+                alt="Salugu Harshita Bhanu"
+                width={500}
+                height={500}
+                className="object-cover w-full h-full"
+                priority
+              />
             </div>
           </div>
 
