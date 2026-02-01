@@ -68,7 +68,7 @@ export default function About() {
                 alt="Salugu Harshita Bhanu"
                 width={500}
                 height={500}
-                className="object-cover w-full h-full"
+                className="object-cover w-full h-full object-[center_15%]"
                 priority
               />
             </div>
