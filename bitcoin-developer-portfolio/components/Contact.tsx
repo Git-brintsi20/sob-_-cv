@@ -71,7 +71,7 @@ export default function Contact() {
                 rel="noopener noreferrer"
                 className="text-foreground hover:text-bitcoin transition-colors font-semibold text-sm"
               >
-                Harshita Bhanu
+               Salugu Harshita Bhanu
               </a>
             </Card>
           </div>

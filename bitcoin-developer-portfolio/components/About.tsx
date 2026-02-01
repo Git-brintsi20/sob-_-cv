@@ -12,7 +12,7 @@ interface StatCounter {
 
 const stats: StatCounter[] = [
   { label: 'Bitcoin Projects', value: '4' },
-  { label: 'CGPA', value: '8.2' },
+  { label: 'CGPA', value: '8.1' },
   { label: 'LeetCode Problems', value: '200', suffix: '+' },
   { label: 'SOB Applicant', value: '2026' },
 ];
@@ -69,7 +69,7 @@ export default function About() {
           {/* Bio text */}
           <div className={`transform transition-all duration-1000 delay-200 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-12'}`}>
             <p className="text-lg text-foreground-muted mb-6 leading-relaxed">
-              Second-year Computer Science student at IIIT Jabalpur with deep expertise in cryptography, distributed systems, and full-stack development. Passionate about Bitcoin's potential to revolutionize financial systems through decentralized technology.
+              Third-year Computer Science student at IIIT Jabalpur with deep expertise in cryptography, distributed systems, and full-stack development. Passionate about Bitcoin's potential to revolutionize financial systems through decentralized technology.
             </p>
             <p className="text-lg text-foreground-muted mb-6 leading-relaxed">
               Currently building Bitcoin tools and diving deep into Lightning Network protocols. Strong foundation in software engineering with proficiency across the full development stack—from blockchain protocol implementation to responsive front-end interfaces.

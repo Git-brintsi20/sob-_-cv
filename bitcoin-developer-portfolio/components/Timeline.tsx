@@ -12,13 +12,13 @@ interface TimelineEvent {
 
 const timeline: TimelineEvent[] = [
   {
-    month: 'JAN',
+    month: 'DEC',
     year: '2026',
-    title: 'Started Bitcoin Development',
+    title: 'Started Exploring Bitcoin Development',
     description: ['Read Bitcoin whitepaper', 'Set up Bitcoin Core testnet node', 'Studied Mastering Bitcoin'],
   },
   {
-    month: 'FEB',
+    month: 'JAN-FEB',
     year: '2026',
     title: 'Built Bitcoin Projects',
     description: ['Transaction Parser & Analyzer', 'Lightning Network Simulator', 'HD Wallet & Address Tools', 'Blockchain Explorer'],

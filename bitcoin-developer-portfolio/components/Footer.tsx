@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center space-y-4">
           <p className="text-foreground-muted">
-            © {currentYear} Harshita Bhanu. All rights reserved.
+            © {currentYear} Salugu Harshita Bhanu. All rights reserved.
           </p>
           <p className="text-foreground-muted text-sm">
             Built with Next.js • Deployed on Vercel

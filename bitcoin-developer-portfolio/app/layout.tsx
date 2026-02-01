@@ -8,14 +8,14 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Harshita Bhanu - Bitcoin Developer | Summer of Bitcoin 2026',
-  description: 'Full-stack developer specializing in Bitcoin development, Lightning Network, and cryptocurrency applications. Second-year Computer Science student at IIIT Jabalpur passionate about decentralized systems.',
+  title: 'Salugu Harshita Bhanu - Bitcoin Developer | Summer of Bitcoin 2026',
+  description: 'Full-stack developer specializing in Bitcoin development, Lightning Network, and cryptocurrency applications. Third-year Computer Science student at IIIT Jabalpur passionate about decentralized systems.',
   keywords: ['Bitcoin developer', 'Lightning Network', 'cryptocurrency', 'blockchain', 'Summer of Bitcoin', 'full-stack developer', 'Bitcoin Core RPC', 'cryptography', 'ECDSA', 'distributed systems'],
-  authors: [{ name: 'Harshita Bhanu' }],
-  creator: 'Harshita Bhanu',
+  authors: [{ name: 'Salugu Harshita Bhanu' }],
+  creator: ' Salugu Harshita Bhanu',
   generator: 'Next.js',
   openGraph: {
-    title: 'Harshita Bhanu - Bitcoin Developer Portfolio',
+    title: 'Salugu Harshita Bhanu - Bitcoin Developer Portfolio',
     description: 'Exploring Bitcoin development through transaction parsers, Lightning Network simulators, and blockchain tools. Summer of Bitcoin 2026 applicant.',
     type: 'website',
     locale: 'en_US',
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Harshita Bhanu - Bitcoin Developer',
+    title: 'Salugu Harshita Bhanu - Bitcoin Developer',
     description: 'Full-stack developer specializing in Bitcoin development, Lightning Network, and decentralized systems.',
     images: ['/og-image.svg'],
     creator: '@Git_brintsi20',
