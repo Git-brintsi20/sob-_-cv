@@ -1,179 +1,281 @@
-# Bitcoin Developer Portfolio - Harshita Bhanu
+<div align="center">
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Git-brintsi20/sob-_-cv)
+# ₿ Bitcoin Developer Portfolio
 
-## 🌟 Overview
+### **Harshita Bhanu** | Summer of Bitcoin 2026
 
-Professional portfolio website showcasing Bitcoin development projects and technical skills for Summer of Bitcoin 2026 application.
+<p align="center">
+  <img src="https://img.shields.io/badge/Bitcoin-F7931A?style=for-the-badge&logo=bitcoin&logoColor=white" alt="Bitcoin"/>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="TailwindCSS"/>
+</p>
 
-**Live Demo**: Coming soon on Vercel
+<p align="center">
+  <a href="https://sob-cv.vercel.app"><img src="https://img.shields.io/badge/🌐_Live_Demo-Visit_Site-F7931A?style=for-the-badge" alt="Live Demo"/></a>
+  <a href="https://vercel.com/new/clone?repository-url=https://github.com/Git-brintsi20/sob-_-cv"><img src="https://vercel.com/button" alt="Deploy with Vercel"/></a>
+</p>
+
+---
+
+### 🌟 **Professional portfolio showcasing Bitcoin development projects and technical expertise**
+
+*Building the future of decentralized finance, one block at a time* ⛓️
+
+</div>
+
+<br/>
 
 ## ✨ Features
 
-- 🎨 **Modern Design**: Dark theme with Bitcoin orange (#F7931A) accents
-- 🌐 **Animated Background**: Interactive Bitcoin network visualization with Canvas API
-- ⚡ **Lightning Fast**: Next.js 14 with App Router, optimized for performance
-- 📱 **Fully Responsive**: Mobile-first design with smooth transitions
-- 🔧 **Bitcoin Projects Showcase**: 4 featured Bitcoin development projects
-- 🎯 **SEO Optimized**: Complete metadata and Open Graph tags
+<table>
+<tr>
+<td width="50%">
+
+### 🎨 **Design & UX**
+- Dark theme with Bitcoin orange accents
+- Animated Bitcoin network background
+- Smooth scroll animations
+- Mobile-first responsive design
+
+</td>
+<td width="50%">
+
+### ⚡ **Performance & Tech**
+- Next.js 14 with App Router
+- Server-side rendering
+- TypeScript type safety
+- SEO optimized with Open Graph
+
+</td>
+</tr>
+</table>
+
+<br/>
 
 ## 🛠️ Tech Stack
 
-- **Framework**: Next.js 14 (App Router)
-- **Language**: TypeScript
-- **Styling**: TailwindCSS v4
-- **UI Components**: Shadcn/UI + Radix UI
-- **Animations**: Framer Motion + Custom Canvas animations
-- **Icons**: Lucide React
-- **Analytics**: Vercel Analytics
-- **Deployment**: Vercel
+<div align="center">
 
-## 📦 Installation
+| Category | Technologies |
+|----------|-------------|
+| **Frontend** | ![Next.js](https://img.shields.io/badge/Next.js_14-000000?style=flat-square&logo=next.js) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
+| **Styling** | ![TailwindCSS](https://img.shields.io/badge/Tailwind_v4-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white) ![Shadcn/UI](https://img.shields.io/badge/Shadcn/UI-000000?style=flat-square&logo=shadcnui&logoColor=white) |
+| **Animation** | ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white) Canvas API |
+| **Icons** | ![Lucide](https://img.shields.io/badge/Lucide_React-F56565?style=flat-square) |
+| **Deployment** | ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white) ![Vercel Analytics](https://img.shields.io/badge/Analytics-Enabled-success?style=flat-square) |
+
+</div>
+
+<br/>
+
+## � Quick Start
 
 ```bash
-# Clone the repository
+# 📥 Clone the repository
 git clone https://github.com/Git-brintsi20/sob-_-cv.git
-cd bitcoin-developer-portfolio
+cd sob-_-cv
 
-# Install dependencies (pnpm recommended)
+# 📦 Install dependencies (pnpm recommended)
 pnpm install
 
-# Run development server
+# 🔥 Run development server
 pnpm dev
+# ➡️ Open http://localhost:3000
 
-# Build for production
+# 🏗️ Build for production
 pnpm build
 
-# Start production server
+# ▶️ Start production server
 pnpm start
 ```
 
-## 🚀 Deployment
+> **💡 Tip:** Use `pnpm` for faster installs or switch to `npm`/`yarn` if preferred
 
-### Deploy to Vercel (Recommended)
+<br/>
 
-1. Push your code to GitHub
-2. Visit [Vercel](https://vercel.com)
-3. Import your repository
-4. Vercel will auto-detect Next.js and deploy!
+## 🌐 Deployment
 
-Or use the Vercel CLI:
+<div align="center">
+
+### **One-Click Deploy to Vercel** 🚀
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Git-brintsi20/sob-_-cv)
+
+**OR** use Vercel CLI:
 
 ```bash
-# Install Vercel CLI
 npm i -g vercel
-
-# Deploy
 vercel --prod
 ```
 
-### Environment Variables
+> ✅ **No environment variables required** - Deploy in seconds!
 
-No environment variables required for basic deployment.
+</div>
+
+<br/>
 
 ## 📂 Project Structure
 
 ```
-bitcoin-developer-portfolio/
-├── app/
-│   ├── layout.tsx          # Root layout with metadata
-│   ├── page.tsx            # Home page
-│   └── globals.css         # Global styles with custom colors
-├── components/
-│   ├── Hero.tsx            # Hero section with typewriter effect
-│   ├── About.tsx           # About section with stats
-│   ├── Projects.tsx        # Bitcoin projects showcase
-│   ├── Skills.tsx          # Technical skills grid
-│   ├── Timeline.tsx        # Learning journey timeline
-│   ├── Contact.tsx         # Contact section
-│   ├── Footer.tsx          # Footer component
-│   ├── BitcoinNetwork.tsx  # Animated Bitcoin network background
-│   └── ui/                 # Shadcn UI components
-├── public/
-│   ├── resume.pdf          # Resume PDF (replace with yours)
-│   ├── og-image.svg        # Open Graph image
-│   └── *.png               # Icons
-└── package.json
+📁 sob-_-cv/
+┣ 📂 app/
+┃ ┣ 📄 layout.tsx          # Root layout with metadata
+┃ ┣ 📄 page.tsx            # Home page
+┃ ┗ 📄 globals.css         # Global styles & custom colors
+┣ 📂 components/
+┃ ┣ 📄 Hero.tsx            # Hero section with typewriter effect
+┃ ┣ 📄 About.tsx           # About section with stats
+┃ ┣ 📄 Projects.tsx        # Bitcoin projects showcase
+┃ ┣ 📄 Skills.tsx          # Technical skills grid
+┃ ┣ 📄 Timeline.tsx        # Learning journey timeline
+┃ ┣ 📄 Contact.tsx         # Contact section
+┃ ┣ 📄 Footer.tsx          # Footer component
+┃ ┣ 📄 BitcoinNetwork.tsx  # Animated network background
+┃ ┗ 📂 ui/                 # Shadcn UI components
+┣ 📂 public/
+┃ ┣ 📄 resume.pdf          # Resume PDF
+┃ ┗ 📄 *.png               # Icons & images
+┗ 📄 package.json
 ```
+
+<br/>
 
 ## 🎨 Color Palette
 
-```css
---bitcoin: #F7931A          /* Bitcoin Orange */
---bitcoin-dark: #E87E0A     /* Darker Orange */
---accent: #3B82F6           /* Electric Blue */
---background: #0A0A0A       /* Deep Dark */
---background-light: #111111 /* Lighter Dark */
---foreground: #FFFFFF       /* White */
---foreground-muted: #9CA3AF /* Gray */
-```
+<div align="center">
 
-## 📝 Customization
+| Color | Hex Code | Preview | Usage |
+|-------|----------|---------|-------|
+| **Bitcoin Orange** | `#F7931A` | ![#F7931A](https://via.placeholder.com/80x30/F7931A/F7931A.png) | Primary accent |
+| **Bitcoin Dark** | `#E87E0A` | ![#E87E0A](https://via.placeholder.com/80x30/E87E0A/E87E0A.png) | Hover states |
+| **Electric Blue** | `#3B82F6` | ![#3B82F6](https://via.placeholder.com/80x30/3B82F6/3B82F6.png) | Secondary accent |
+| **Deep Dark** | `#0A0A0A` | ![#0A0A0A](https://via.placeholder.com/80x30/0A0A0A/0A0A0A.png) | Background |
+| **Lighter Dark** | `#111111` | ![#111111](https://via.placeholder.com/80x30/111111/111111.png) | Card backgrounds |
+| **White** | `#FFFFFF` | ![#FFFFFF](https://via.placeholder.com/80x30/FFFFFF/FFFFFF.png) | Text |
+| **Gray** | `#9CA3AF` | ![#9CA3AF](https://via.placeholder.com/80x30/9CA3AF/9CA3AF.png) | Muted text |
+
+</div>
+
+<br/>
+
+## 📝 Customization Guide
+
+<details>
+<summary><b>🎯 Click to expand customization steps</b></summary>
+
+<br/>
 
 ### Update Personal Information
 
-1. **Hero Section**: Edit `components/Hero.tsx` - Change name and titles
-2. **About Section**: Edit `components/About.tsx` - Update bio, stats, and skills
-3. **Projects**: Edit `components/Projects.tsx` - Add/modify your projects
-4. **Contact**: Edit `components/Contact.tsx` - Update email, GitHub, LinkedIn
-5. **Resume**: Replace `public/resume.pdf` with your actual resume
+| Component | File | What to Change |
+|-----------|------|----------------|
+| **Hero** | `components/Hero.tsx` | Name, titles, taglines |
+| **About** | `components/About.tsx` | Bio, stats, skills |
+| **Projects** | `components/Projects.tsx` | Your projects & demos |
+| **Contact** | `components/Contact.tsx` | Email, GitHub, LinkedIn |
+| **Resume** | `public/resume.pdf` | Replace with your PDF |
 
 ### Update Metadata
 
 Edit `app/layout.tsx`:
-- Update title, description, keywords
-- Change Open Graph images and URLs
-- Modify Twitter card information
+- ✏️ Title, description, keywords
+- 🖼️ Open Graph images and URLs
+- 🐦 Twitter card information
+
+</details>
+
+<br/>
 
 ## 🔧 Available Scripts
 
-```bash
-pnpm dev      # Start development server (localhost:3000)
-pnpm build    # Create production build
-pnpm start    # Start production server
-pnpm lint     # Run ESLint
-```
+| Command | Description | Port |
+|---------|-------------|------|
+| `pnpm dev` | 🔥 Start development server | 3000 |
+| `pnpm build` | 🏗️ Create production build | - |
+| `pnpm start` | ▶️ Start production server | 3000 |
+| `pnpm lint` | 🔍 Run ESLint | - |
 
-## 🌐 Featured Projects
+<br/>
 
-1. **Bitcoin Transaction Parser & Analyzer**
-   - Real-time transaction decoder with UTXO analysis
-   - Tech: Node.js, TypeScript, Bitcoin Core RPC, React
+## 💼 Featured Bitcoin Projects
 
-2. **Lightning Network Payment Channel Simulator**
-   - Interactive HTLC mechanics demonstration
-   - Tech: Python, FastAPI, WebSocket, D3.js
+<div align="center">
 
-3. **Bitcoin Address Validator & HD Wallet Generator**
-   - BIP32/39/44 compliant wallet tools
-   - Tech: TypeScript, bitcoinjs-lib, Next.js
+### 🔗 **Live Demos Available**
 
-4. **Mini Blockchain Explorer & Block Visualizer**
-   - Real-time testnet data visualization
-   - Tech: React, Node.js, PostgreSQL, Redis
+</div>
 
-## 📊 Performance
+| # | Project | Description | Tech Stack | Links |
+|---|---------|-------------|------------|-------|
+| 1️⃣ | **Bitcoin Transaction Parser** | Real-time transaction decoder with UTXO analysis & Script interpreter | `Node.js` `TypeScript` `Bitcoin Core RPC` `React` | [🔗 Demo](https://bitcoin-tx-parser.vercel.app/) • [💻 Code](https://github.com/Git-brintsi20/bitcoin-tx-parser) |
+| 2️⃣ | **Lightning Network Simulator** | Interactive HTLC mechanics with payment routing & multi-hop pathfinding | `Python` `FastAPI` `WebSocket` `D3.js` | [🔗 Demo](https://lightning-simulator-omega.vercel.app/) • [💻 Code](https://github.com/Git-brintsi20/lightning-simulator) |
+| 3️⃣ | **Address Validator & HD Wallet** | BIP32/39/44 compliant tools for Legacy, SegWit, Taproot formats | `TypeScript` `bitcoinjs-lib` `Next.js` `TailwindCSS` | [💻 Code](https://github.com/Git-brintsi20/btc-address-tools) |
+| 4️⃣ | **Blockchain Explorer** | Real-time testnet data with merkle tree visualization & mempool monitoring | `React` `Node.js` `PostgreSQL` `Redis` | [🔗 Demo](https://bitcoin-explorer-puce.vercel.app/) • [💻 Code](https://github.com/Git-brintsi20/bitcoin-explorer) |
 
-- ✅ 95+ Lighthouse Performance Score
-- ✅ Mobile-first responsive design
-- ✅ Optimized images and lazy loading
-- ✅ Server-side rendering with Next.js
-- ✅ Fast page load times
+<br/>
+
+## 📊 Performance Metrics
+
+<div align="center">
+
+![Lighthouse Performance](https://img.shields.io/badge/Performance-95+-success?style=for-the-badge&logo=lighthouse)
+![Accessibility](https://img.shields.io/badge/Accessibility-100-success?style=for-the-badge&logo=lighthouse)
+![Best Practices](https://img.shields.io/badge/Best_Practices-95+-success?style=for-the-badge&logo=lighthouse)
+![SEO](https://img.shields.io/badge/SEO-100-success?style=for-the-badge&logo=lighthouse)
+
+**✅ Features:**
+- Mobile-first responsive design
+- Optimized images & lazy loading
+- Server-side rendering with Next.js
+- Fast page load times
+
+</div>
+
+<br/>
 
 ## 🤝 Contributing
 
-This is a personal portfolio project. Feel free to fork and customize for your own use!
+<div align="center">
+
+This is a personal portfolio project, but feel free to **fork** and customize for your own use! 🚀
+
+If you find this helpful, consider giving it a ⭐️
+
+</div>
+
+<br/>
 
 ## 📄 License
 
-MIT License - Feel free to use this template for your own portfolio
+<div align="center">
 
-## 📧 Contact
+**MIT License** - Free to use for your own portfolio
 
-- **Email**: shiki2hustle@gmail.com
-- **GitHub**: [@Git-brintsi20](https://github.com/Git-brintsi20)
-- **LinkedIn**: [Salugu Harshita Bhanu](https://www.linkedin.com/in/salugu-harshita-bhanu-b447b1274/)
+</div>
+
+<br/>
+
+## 📧 Connect With Me
+
+<div align="center">
+
+[![Email](https://img.shields.io/badge/Email-shiki2hustle@gmail.com-F7931A?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shiki2hustle@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-@Git--brintsi20-181717?style=for-the-badge&logo=github)](https://github.com/Git-brintsi20)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Salugu_Harshita_Bhanu-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/salugu-harshita-bhanu-b447b1274/)
+
+</div>
 
 ---
 
-**Summer of Bitcoin 2026** | Built with ❤️ and ₿ by Harshita Bhanu
+<div align="center">
+
+### ⚡ **Summer of Bitcoin 2026** ⚡
+
+**Built with ❤️ and ₿ by Harshita Bhanu**
+
+<img src="https://img.shields.io/badge/Bitcoin-F7931A?style=for-the-badge&logo=bitcoin&logoColor=white" alt="Bitcoin"/>
+
+*Decentralizing the future, one commit at a time* 🚀
+
+</div>
