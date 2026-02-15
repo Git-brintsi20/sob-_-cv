@@ -37,7 +37,7 @@ const projects: Project[] = [
       'Comprehensive address validation for Legacy, SegWit, Taproot formats. BIP32/39/44 compliant HD wallet generator with mnemonic creation and educational interface.',
     tech: ['TypeScript', 'bitcoinjs-lib', 'Next.js', 'TailwindCSS'],
     github: 'https://github.com/Git-brintsi20/btc-address-tools',
-    demo: '#',
+    demo: 'https://btc-address-tools.vercel.app/',
   },
   {
     title: 'Mini Blockchain Explorer & Block Visualizer',

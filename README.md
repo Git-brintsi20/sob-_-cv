@@ -210,7 +210,7 @@ Edit `app/layout.tsx`:
 |---|---------|-------------|------------|-------|
 | 1️⃣ | **Bitcoin Transaction Parser** | Real-time transaction decoder with UTXO analysis & Script interpreter | `Node.js` `TypeScript` `Bitcoin Core RPC` `React` | [🔗 Demo](https://bitcoin-tx-parser.vercel.app/) • [💻 Code](https://github.com/Git-brintsi20/bitcoin-tx-parser) |
 | 2️⃣ | **Lightning Network Simulator** | Interactive HTLC mechanics with payment routing & multi-hop pathfinding | `Python` `FastAPI` `WebSocket` `D3.js` | [🔗 Demo](https://lightning-simulator-omega.vercel.app/) • [💻 Code](https://github.com/Git-brintsi20/lightning-simulator) |
-| 3️⃣ | **Address Validator & HD Wallet** | BIP32/39/44 compliant tools for Legacy, SegWit, Taproot formats | `TypeScript` `bitcoinjs-lib` `Next.js` `TailwindCSS` | [💻 Code](https://github.com/Git-brintsi20/btc-address-tools) |
+| 3️⃣ | **Address Validator & HD Wallet** | BIP32/39/44 compliant tools for Legacy, SegWit, Taproot formats | `TypeScript` `bitcoinjs-lib` `Next.js` `TailwindCSS` | [� Demo](https://btc-address-tools.vercel.app/) • [�💻 Code](https://github.com/Git-brintsi20/btc-address-tools) |
 | 4️⃣ | **Blockchain Explorer** | Real-time testnet data with merkle tree visualization & mempool monitoring | `React` `Node.js` `PostgreSQL` `Redis` | [🔗 Demo](https://bitcoin-explorer-puce.vercel.app/) • [💻 Code](https://github.com/Git-brintsi20/bitcoin-explorer) |
 
 <br/>
