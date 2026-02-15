@@ -21,7 +21,7 @@ const projects: Project[] = [
       'Real-time Bitcoin transaction decoder analyzing UTXO models, calculating fees, and visualizing transaction graphs. Implements Bitcoin Script interpreter for P2PKH, P2SH, SegWit formats.',
     tech: ['Node.js', 'TypeScript', 'Bitcoin Core RPC', 'React', 'Chart.js'],
     github: 'https://github.com/Git-brintsi20/bitcoin-tx-parser',
-    demo: '#',
+    demo: 'https://bitcoin-tx-parser.vercel.app/',
   },
   {
     title: 'Lightning Network Payment Channel Simulator',
@@ -29,7 +29,7 @@ const projects: Project[] = [
       'Interactive Lightning Network simulator demonstrating HTLC mechanics, payment routing, multi-hop pathfinding, and channel management with breach remedies.',
     tech: ['Python', 'FastAPI', 'WebSocket', 'React', 'D3.js'],
     github: 'https://github.com/Git-brintsi20/lightning-simulator',
-    demo: '#',
+    demo: 'https://lightning-simulator-omega.vercel.app/',
   },
   {
     title: 'Bitcoin Address Validator & HD Wallet Generator',
@@ -45,7 +45,7 @@ const projects: Project[] = [
       'Blockchain explorer fetching real-time testnet data via RPC. Features block header parsing, merkle tree visualization, mempool monitoring, and difficulty analysis.',
     tech: ['React', 'Node.js', 'Bitcoin Core RPC', 'PostgreSQL', 'Redis'],
     github: 'https://github.com/Git-brintsi20/bitcoin-explorer',
-    demo: '#',
+    demo: 'https://bitcoin-explorer-puce.vercel.app/',
   },
 ];
 
