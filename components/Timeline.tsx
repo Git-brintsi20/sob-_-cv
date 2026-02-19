@@ -13,21 +13,21 @@ interface TimelineEvent {
 const timeline: TimelineEvent[] = [
   {
     month: 'DEC',
-    year: '2026',
-    title: 'Started Exploring Bitcoin Development',
-    description: ['Read Bitcoin whitepaper', 'Set up Bitcoin Core testnet node', 'Studied Mastering Bitcoin'],
+    year: '2025',
+    title: 'Explored Blockchain & AI',
+    description: ['Studied blockchain fundamentals', 'Learned smart contract development', 'Explored AI model basics'],
   },
   {
-    month: 'JAN-FEB',
+    month: 'JAN',
     year: '2026',
-    title: 'Built Bitcoin Projects',
-    description: ['Transaction Parser & Analyzer', 'Lightning Network Simulator', 'HD Wallet & Address Tools', 'Blockchain Explorer'],
+    title: 'Joined IJTB Internship',
+    description: ['Selected for IJTB【BLOCK CHAIN】Developer Internship at GustoDevelopment Co., Ltd.', 'Started DApp and AI project work', 'Collaborated with senior engineers'],
   },
   {
     month: 'FEB',
     year: '2026',
-    title: 'Summer of Bitcoin Application',
-    description: ['Applied to SOB Development Track', 'Created portfolio: harshita-bitcoin.dev', 'Goal: Contribute to Bitcoin ecosystem'],
+    title: 'Project Development & Delivery',
+    description: ['Designed and developed smart contracts', 'Built AI-powered application prototype', 'Presented final deliverables and technical report'],
   },
 ];
 
@@ -55,7 +55,7 @@ export default function Timeline() {
   return (
     <section id="timeline" className="py-20 px-4 bg-background-light">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold mb-16 text-center text-foreground">Bitcoin Learning Journey</h2>
+        <h2 className="text-4xl md:text-5xl font-bold mb-16 text-center text-foreground">IJTB Internship Journey</h2>
 
         <div className="space-y-8 relative">
           {/* Vertical line */}

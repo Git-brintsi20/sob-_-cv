@@ -12,25 +12,26 @@ interface StatCounter {
 }
 
 const stats: StatCounter[] = [
-  { label: 'Bitcoin Projects', value: '4' },
+  { label: 'Blockchain/AI Projects', value: '4' },
   { label: 'CGPA', value: '8.1' },
   { label: 'LeetCode Problems', value: '250', suffix: '+' },
-  { label: 'SOB Applicant', value: '2026' },
+  { label: 'IJTB Intern', value: '2026' },
 ];
 
 const skills = [
-  'Bitcoin Core RPC',
-  'Lightning Network',
+  'Solidity',
+  'Smart Contracts',
+  'Python',
+  'TensorFlow',
+  'PyTorch',
   'TypeScript',
   'Node.js',
   'React',
-  'Cryptography',
-  'ECDSA secp256k1',
-  'PostgreSQL',
-  'MongoDB',
-  'Docker',
-  'Smart Contracts',
-  'BIP32/39/44',
+  'AI Model Development',
+  'Data Analysis',
+  'Blockchain Integration',
+  'Cloud Platforms (AWS, GCP)',
+  'Git/GitHub',
 ];
 
 export default function About() {
@@ -77,13 +78,13 @@ export default function About() {
           {/* Bio text */}
           <div className={`transform transition-all duration-1000 delay-200 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-12'}`}>
             <p className="text-lg text-foreground-muted mb-6 leading-relaxed">
-              Third-year Computer Science student at IIIT Jabalpur with deep expertise in cryptography, distributed systems, and full-stack development. Passionate about Bitcoin's potential to revolutionize financial systems through decentralized technology.
+              Third-year Computer Science student at IIIT Jabalpur with strong expertise in blockchain, artificial intelligence, and full-stack development. Passionate about leveraging technology to drive digital transformation and create impactful solutions.
             </p>
             <p className="text-lg text-foreground-muted mb-6 leading-relaxed">
-              Currently building Bitcoin tools and diving deep into Lightning Network protocols. Strong foundation in software engineering with proficiency across the full development stack—from blockchain protocol implementation to responsive front-end interfaces.
+              Currently interning at GustoDevelopment Co., Ltd. as an IJTB【BLOCK CHAIN】Developer Intern, actively participating in decentralized application (DApp) and AI project development. Experienced in smart contract design, machine learning model development, and cloud integration.
             </p>
             <p className="text-lg text-foreground-muted leading-relaxed">
-              Committed to contributing to the Bitcoin ecosystem and advancing the adoption of decentralized financial technologies.
+              Dedicated to advancing the adoption of blockchain and AI technologies, and committed to delivering innovative solutions for real-world challenges.
             </p>
           </div>
         </div>

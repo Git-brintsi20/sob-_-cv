@@ -8,13 +8,13 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center space-y-4">
           <p className="text-foreground-muted">
-            © {currentYear} Salugu Harshita Bhanu. All rights reserved.
+            &copy; {currentYear} Salugu Harshita Bhanu. Portfolio for IJTB【BLOCK CHAIN】Developer Internship at GustoDevelopment Co., Ltd.
           </p>
           <p className="text-foreground-muted text-sm">
-            Built with Next.js • Deployed on Vercel
+            Built with Next.js, TailwindCSS, and deployed on Vercel.
           </p>
           <p className="text-foreground-muted text-sm">
-            Powered by Bitcoin ₿
+            Powered by Bitcoin ₿ (Updated for IJTB internship)
           </p>
         </div>
       </div>

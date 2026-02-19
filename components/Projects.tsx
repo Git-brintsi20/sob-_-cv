@@ -16,36 +16,36 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: 'Bitcoin Transaction Parser & Analyzer',
+    title: 'Decentralized Voting DApp',
     description:
-      'Real-time Bitcoin transaction decoder analyzing UTXO models, calculating fees, and visualizing transaction graphs. Implements Bitcoin Script interpreter for P2PKH, P2SH, SegWit formats.',
-    tech: ['Node.js', 'TypeScript', 'Bitcoin Core RPC', 'React', 'Chart.js'],
-    github: 'https://github.com/Git-brintsi20/bitcoin-tx-parser',
-    demo: 'https://bitcoin-tx-parser.vercel.app/',
+      'A secure decentralized application for transparent voting using smart contracts (Solidity) and blockchain integration. Features real-time results, user authentication, and testnet deployment.',
+    tech: ['Solidity', 'React', 'Node.js', 'Ethereum Testnet', 'Web3.js'],
+    github: '#',
+    demo: '#',
   },
   {
-    title: 'Lightning Network Payment Channel Simulator',
+    title: 'AI-Powered Sentiment Analysis Tool',
     description:
-      'Interactive Lightning Network simulator demonstrating HTLC mechanics, payment routing, multi-hop pathfinding, and channel management with breach remedies.',
-    tech: ['Python', 'FastAPI', 'WebSocket', 'React', 'D3.js'],
-    github: 'https://github.com/Git-brintsi20/lightning-simulator',
-    demo: 'https://lightning-simulator-omega.vercel.app/',
+      'Machine learning model for sentiment analysis on social media data. Built with Python, TensorFlow, and deployed as a working prototype. Includes data preprocessing, training, and cloud integration.',
+    tech: ['Python', 'TensorFlow', 'React', 'AWS'],
+    github: '#',
+    demo: '#',
   },
   {
-    title: 'Bitcoin Address Validator & HD Wallet Generator',
+    title: 'Smart Contract-Based Supply Chain Tracker',
     description:
-      'Comprehensive address validation for Legacy, SegWit, Taproot formats. BIP32/39/44 compliant HD wallet generator with mnemonic creation and educational interface.',
-    tech: ['TypeScript', 'bitcoinjs-lib', 'Next.js', 'TailwindCSS'],
-    github: 'https://github.com/Git-brintsi20/btc-address-tools',
-    demo: 'https://btc-address-tools.vercel.app/',
+      'A DApp for tracking supply chain events using blockchain. Implements smart contracts for provenance, integrates with front-end, and tested on a blockchain testnet.',
+    tech: ['Solidity', 'Node.js', 'React', 'Hardhat'],
+    github: '#',
+    demo: '#',
   },
   {
-    title: 'Mini Blockchain Explorer & Block Visualizer',
+    title: 'AI Image Classification Prototype',
     description:
-      'Blockchain explorer fetching real-time testnet data via RPC. Features block header parsing, merkle tree visualization, mempool monitoring, and difficulty analysis.',
-    tech: ['React', 'Node.js', 'Bitcoin Core RPC', 'PostgreSQL', 'Redis'],
-    github: 'https://github.com/Git-brintsi20/bitcoin-explorer',
-    demo: 'https://bitcoin-explorer-puce.vercel.app/',
+      'Developed a prototype AI application for image classification using PyTorch. Includes data preprocessing, model training, and deployment as a web app.',
+    tech: ['Python', 'PyTorch', 'React', 'Google Cloud'],
+    github: '#',
+    demo: '#',
   },
 ];
 
@@ -73,7 +73,7 @@ export default function Projects() {
   return (
     <section id="projects" className="py-20 px-4 bg-background-light">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold mb-16 text-center text-foreground">Bitcoin Development Projects</h2>
+        <h2 className="text-4xl md:text-5xl font-bold mb-16 text-center text-foreground">IJTB Internship Projects</h2>
 
         <div className="grid md:grid-cols-2 gap-8">
           {projects.map((project, index) => (

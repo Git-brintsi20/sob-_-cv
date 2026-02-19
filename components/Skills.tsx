@@ -11,24 +11,24 @@ interface SkillCategory {
 
 const skillCategories: SkillCategory[] = [
   {
-    title: 'Bitcoin Development',
-    icon: '₿',
-    skills: ['Bitcoin Core RPC', 'bitcoinjs-lib', 'Lightning Network Protocol', 'BIP32/39/44', 'PSBT', 'ECDSA secp256k1', 'SHA-256'],
+    title: 'Blockchain & Smart Contracts',
+    icon: '🔗',
+    skills: ['Solidity', 'Smart Contract Design', 'Hardhat', 'Truffle', 'Web3.js', 'Ethereum Testnet', 'Blockchain Integration'],
   },
   {
-    title: 'Cryptography & Security',
-    icon: '🔐',
-    skills: ['AES-256-GCM', 'Digital Signatures', 'Base58Check', 'Bech32', 'OWASP Top 10', 'JWT/OAuth 2.0'],
+    title: 'Artificial Intelligence',
+    icon: '🤖',
+    skills: ['Python', 'TensorFlow', 'PyTorch', 'AI Model Development', 'Data Preprocessing', 'Cloud Deployment (AWS, GCP)'],
   },
   {
-    title: 'Full-Stack Development',
-    icon: '⚙️',
-    skills: ['TypeScript', 'JavaScript', 'Python', 'React', 'Next.js', 'Node.js', 'Express.js', 'PostgreSQL', 'MongoDB', 'Redis'],
+    title: 'Web & Full-Stack Development',
+    icon: '🛠️',
+    skills: ['TypeScript', 'JavaScript', 'React', 'Node.js', 'Express.js', 'Next.js', 'PostgreSQL', 'MongoDB'],
   },
   {
     title: 'DevOps & Tools',
-    icon: '🛠️',
-    skills: ['Docker', 'Git/GitHub', 'Linux', 'CI/CD', 'Bitcoin Core Node', 'Testnet Operations'],
+    icon: '🧰',
+    skills: ['Docker', 'Git/GitHub', 'Linux', 'CI/CD', 'Cloud Platforms', 'Testnet Operations'],
   },
 ];
 

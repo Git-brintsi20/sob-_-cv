@@ -7,7 +7,7 @@ import BitcoinNetwork from '@/components/BitcoinNetwork';
 
 export default function Hero() {
   const [displayText, setDisplayText] = useState('');
-  const fullText = 'Salugu Harshita Bhanu';
+  const fullText = 'Salugu Harshita Bhanu'; // You may update this name if needed
 
   useEffect(() => {
     let index = 0;
@@ -43,11 +43,11 @@ export default function Hero() {
         </h1>
 
         <p className="text-xl md:text-2xl text-foreground-muted mb-8 leading-relaxed max-w-3xl mx-auto">
-          Full-Stack Developer • Bitcoin Enthusiast • Summer of Bitcoin 2026
+          Full-Stack Developer • Blockchain & AI Enthusiast • IJTB【BLOCK CHAIN】Developer Internship 2026
         </p>
 
         <p className="text-lg text-foreground-muted mb-12 max-w-2xl mx-auto leading-relaxed">
-          Crafting decentralized solutions through Bitcoin development, Lightning Network protocols, and cryptographic innovations.
+          Building decentralized applications and AI-powered solutions at GustoDevelopment Co., Ltd. Passionate about leveraging blockchain and artificial intelligence to drive digital transformation and create new market value.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
@@ -58,7 +58,7 @@ export default function Hero() {
               document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' });
             }}
           >
-            View Bitcoin Projects
+            View Internship Projects
           </Button>
           <Button
             size="lg"
