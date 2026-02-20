@@ -30,10 +30,10 @@ export default function Contact() {
     <section id="contact" className="py-20 px-4 bg-background">
       <div className="max-w-4xl mx-auto">
         <div className={`text-center transform transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">Let's Build Bitcoin Together</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">Let's Connect</h2>
 
           <p className="text-lg text-foreground-muted mb-12 max-w-2xl mx-auto">
-            Interested in collaborating on Bitcoin projects or discussing cryptography and distributed systems? Let's connect!
+            Interested in collaborating on Blockchain, AI, or security projects? Or want to discuss distributed systems, cryptography, or open source? Let's connect!
           </p>
 
           {/* Contact cards */}

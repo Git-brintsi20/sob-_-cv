@@ -16,35 +16,59 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: 'Decentralized Voting DApp',
+    title: 'Smart Vendor Compliance System (Flagship)',
     description:
-      'A secure decentralized application for transparent voting using smart contracts (Solidity) and blockchain integration. Features real-time results, user authentication, and testnet deployment.',
-    tech: ['Solidity', 'React', 'Node.js', 'Ethereum Testnet', 'Web3.js'],
-    github: '#',
+      'Team Project (Walmart Sparkathon 2025): Blockchain & AI-powered vendor compliance DApp. Ethereum smart contracts (Solidity 0.8), Hardhat, React, IPFS, TensorFlow Lite fraud detection, and mobile-first onboarding. Reduced fraud by 65% and improved gate checks by 80%.',
+    tech: ['Solidity', 'Hardhat', 'Ethereum', 'React', 'IPFS', 'TensorFlow Lite', 'MongoDB', 'Node.js', 'React Native'],
+    github: 'https://github.com/Git-brintsi20/smart-vendor-compliance',
     demo: '#',
   },
   {
-    title: 'AI-Powered Sentiment Analysis Tool',
+    title: 'Bitcoin Transaction Parser & Analyzer',
     description:
-      'Machine learning model for sentiment analysis on social media data. Built with Python, TensorFlow, and deployed as a working prototype. Includes data preprocessing, training, and cloud integration.',
-    tech: ['Python', 'TensorFlow', 'React', 'AWS'],
-    github: '#',
+      'Solo Project: Real-time Bitcoin transaction parser and analyzer. Decodes raw hex, analyzes UTXO, calculates fees, visualizes transaction graphs, and supports multiple script types. Live mempool dashboard with JSON-RPC integration.',
+    tech: ['Node.js', 'TypeScript', 'Bitcoin Core RPC', 'React', 'Chart.js'],
+    github: 'https://github.com/Git-brintsi20/bitcoin-tx-parser',
     demo: '#',
   },
   {
-    title: 'Smart Contract-Based Supply Chain Tracker',
+    title: 'Lightning Network Payment Channel Simulator',
     description:
-      'A DApp for tracking supply chain events using blockchain. Implements smart contracts for provenance, integrates with front-end, and tested on a blockchain testnet.',
-    tech: ['Solidity', 'Node.js', 'React', 'Hardhat'],
-    github: '#',
+      'Solo Project: Simulates Lightning Network payment channels, HTLCs, multi-hop routing, and penalty mechanisms. Interactive D3.js visualization and advanced smart contract logic.',
+    tech: ['Python', 'FastAPI', 'WebSocket', 'React', 'D3.js'],
+    github: 'https://github.com/Git-brintsi20/lightning-simulator',
     demo: '#',
   },
   {
-    title: 'AI Image Classification Prototype',
+    title: 'Bitcoin Address Validator & HD Wallet Generator',
     description:
-      'Developed a prototype AI application for image classification using PyTorch. Includes data preprocessing, model training, and deployment as a web app.',
-    tech: ['Python', 'PyTorch', 'React', 'Google Cloud'],
-    github: '#',
+      'Solo Project: BIP32/39/44 compliant HD wallet generator with mnemonic creation, derivation path visualization, and multi-signature address support. Supports Legacy, SegWit, Taproot formats.',
+    tech: ['TypeScript', 'bitcoinjs-lib', 'Next.js', 'TailwindCSS'],
+    github: 'https://github.com/Git-brintsi20/btc-address-tools',
+    demo: '#',
+  },
+  {
+    title: 'Mini Blockchain Explorer & Block Visualizer',
+    description:
+      'Solo Project: Real-time blockchain explorer with block header parsing, Merkle tree visualization, mempool monitoring, and difficulty analysis. PostgreSQL and Redis for persistence and caching.',
+    tech: ['React', 'Node.js', 'Bitcoin Core RPC', 'PostgreSQL', 'Redis'],
+    github: 'https://github.com/Git-brintsi20/bitcoin-explorer',
+    demo: '#',
+  },
+  {
+    title: 'CipherSuite — Enterprise Security Platform',
+    description:
+      'Solo Project: AES-256-GCM password vault, TOTP-based 2FA, JWT authentication, and security-critical design for DApp wallet systems and AI data pipelines.',
+    tech: ['MERN', 'Next.js', 'Python', 'Flask', 'AES-256-GCM', 'TOTP', 'WebSocket'],
+    github: 'https://github.com/Git-brintsi20/ciphersuite',
+    demo: '#',
+  },
+  {
+    title: 'Bug Tracker SaaS — Distributed Systems',
+    description:
+      'Solo Project: Microservices bug tracker with Redis caching, real-time WebSocket, and scalable architecture for AI model serving and decentralized infrastructure.',
+    tech: ['Next.js', 'TypeScript', 'PostgreSQL', 'Prisma', 'Redis', 'Docker'],
+    github: 'https://github.com/Git-brintsi20/bug-tracker-saas',
     demo: '#',
   },
 ];
@@ -73,7 +97,7 @@ export default function Projects() {
   return (
     <section id="projects" className="py-20 px-4 bg-background-light">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold mb-16 text-center text-foreground">IJTB Internship Projects</h2>
+        <h2 className="text-4xl md:text-5xl font-bold mb-16 text-center text-foreground">Flagship Blockchain & AI Projects</h2>
 
         <div className="grid md:grid-cols-2 gap-8">
           {projects.map((project, index) => (

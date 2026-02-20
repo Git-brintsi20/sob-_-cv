@@ -11,24 +11,44 @@ interface SkillCategory {
 
 const skillCategories: SkillCategory[] = [
   {
-    title: 'Blockchain & Smart Contracts',
+    title: 'Blockchain / DApp',
     icon: '🔗',
-    skills: ['Solidity', 'Smart Contract Design', 'Hardhat', 'Truffle', 'Web3.js', 'Ethereum Testnet', 'Blockchain Integration'],
+    skills: ['Solidity 0.8', 'Ethereum Smart Contracts', 'Hardhat', 'Truffle', 'IPFS', 'Firebase', 'Bitcoin Core RPC', 'Lightning Network', 'BIP32/39/44', 'PSBT'],
   },
   {
-    title: 'Artificial Intelligence',
+    title: 'AI / ML',
     icon: '🤖',
-    skills: ['Python', 'TensorFlow', 'PyTorch', 'AI Model Development', 'Data Preprocessing', 'Cloud Deployment (AWS, GCP)'],
+    skills: ['Python', 'PyTorch', 'TensorFlow Lite', 'Scikit-learn', 'CUDA (fundamentals)', 'Fraud Detection', 'Data Preprocessing', 'ML Prototyping'],
   },
   {
-    title: 'Web & Full-Stack Development',
+    title: 'Web Development',
     icon: '🛠️',
-    skills: ['TypeScript', 'JavaScript', 'React', 'Node.js', 'Express.js', 'Next.js', 'PostgreSQL', 'MongoDB'],
+    skills: ['React.js', 'React Native', 'Next.js 14/15', 'Node.js', 'Express.js', 'FastAPI', 'TypeScript', 'JavaScript', 'TailwindCSS', 'D3.js', 'Chart.js'],
+  },
+  {
+    title: 'Databases & Caching',
+    icon: '🗄️',
+    skills: ['PostgreSQL', 'MongoDB Atlas', 'Firebase Firestore', 'Redis', 'Prisma ORM'],
+  },
+  {
+    title: 'Systems & Networking',
+    icon: '🌐',
+    skills: ['OOP in C++', 'Computer Networks', 'TCP/IP', 'REST APIs', 'WebSocket', 'JSON-RPC', 'Linux/Ubuntu'],
+  },
+  {
+    title: 'Cryptography',
+    icon: '🔒',
+    skills: ['ECDSA secp256k1', 'SHA-256', 'RIPEMD-160', 'AES-256-GCM', 'Digital Signatures', 'Base58Check', 'Bech32'],
   },
   {
     title: 'DevOps & Tools',
     icon: '🧰',
-    skills: ['Docker', 'Git/GitHub', 'Linux', 'CI/CD', 'Cloud Platforms', 'Testnet Operations'],
+    skills: ['Docker', 'Git/GitHub', 'Hardhat', 'CI/CD', 'Postman', 'VS Code'],
+  },
+  {
+    title: 'Security Practices',
+    icon: '🛡️',
+    skills: ['OWASP Top 10', 'JWT/OAuth 2.0', '2FA', 'Secure Key Storage', 'Threat Modeling'],
   },
 ];
 

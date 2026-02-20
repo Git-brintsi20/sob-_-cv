@@ -12,10 +12,10 @@ interface StatCounter {
 }
 
 const stats: StatCounter[] = [
-  { label: 'Blockchain/AI Projects', value: '4' },
+  { label: 'Blockchain/AI Projects', value: '6' },
   { label: 'CGPA', value: '8.1' },
-  { label: 'LeetCode Problems', value: '250', suffix: '+' },
-  { label: 'IJTB Intern', value: '2026' },
+  { label: 'LeetCode Problems', value: '280', suffix: '+' },
+  { label: 'Open Source Contributions', value: 'Active' },
 ];
 
 const skills = [
@@ -78,13 +78,15 @@ export default function About() {
           {/* Bio text */}
           <div className={`transform transition-all duration-1000 delay-200 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-12'}`}>
             <p className="text-lg text-foreground-muted mb-6 leading-relaxed">
-              Third-year Computer Science student at IIIT Jabalpur with strong expertise in blockchain, artificial intelligence, and full-stack development. Passionate about leveraging technology to drive digital transformation and create impactful solutions.
+              Computer Science student with hands-on experience building Ethereum smart contracts and DApps (Solidity, Hardhat, Firebase), and AI/ML-integrated systems (Python, PyTorch, TensorFlow). Strong foundation in OOP, distributed systems, and backend development. Experienced in full-stack development, security-critical applications, and distributed architecture.
             </p>
             <p className="text-lg text-foreground-muted mb-6 leading-relaxed">
-              Currently interning at GustoDevelopment Co., Ltd. as an IJTB【BLOCK CHAIN】Developer Intern, actively participating in decentralized application (DApp) and AI project development. Experienced in smart contract design, machine learning model development, and cloud integration.
+              Passionate about leveraging blockchain and AI to solve real-world problems. Eager to contribute to innovative projects and grow under experienced engineers in a production environment.
             </p>
             <p className="text-lg text-foreground-muted leading-relaxed">
-              Dedicated to advancing the adoption of blockchain and AI technologies, and committed to delivering innovative solutions for real-world challenges.
+              Education: B.Tech CSE, IIIT Jabalpur (2023-2027) | CGPA: 8.1
+              <br />
+              Coding Profiles: <a href="https://leetcode.com/u/hac_brintsi20/" target="_blank" className="text-bitcoin underline">LeetCode</a> | <a href="https://github.com/Git-brintsi20" target="_blank" className="text-bitcoin underline">GitHub</a> | <a href="https://www.codechef.com/users/shiki_20" target="_blank" className="text-bitcoin underline">CodeChef</a> | <a href="https://codeforces.com/profile/shiki_20" target="_blank" className="text-bitcoin underline">Codeforces</a>
             </p>
           </div>
         </div>

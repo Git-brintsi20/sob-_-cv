@@ -12,22 +12,22 @@ interface TimelineEvent {
 
 const timeline: TimelineEvent[] = [
   {
-    month: 'DEC',
-    year: '2025',
-    title: 'Explored Blockchain & AI',
-    description: ['Studied blockchain fundamentals', 'Learned smart contract development', 'Explored AI model basics'],
+    month: '2025',
+    year: '',
+    title: 'Blockchain & AI Foundations',
+    description: ['Studied blockchain, cryptography, and AI basics', 'Built first smart contracts and ML models', 'Explored distributed systems and security'],
   },
   {
-    month: 'JAN',
-    year: '2026',
-    title: 'Joined IJTB Internship',
-    description: ['Selected for IJTB【BLOCK CHAIN】Developer Internship at GustoDevelopment Co., Ltd.', 'Started DApp and AI project work', 'Collaborated with senior engineers'],
+    month: '2025',
+    year: '',
+    title: 'Flagship Project: Smart Vendor Compliance',
+    description: ['Developed Ethereum DApp with AI fraud detection', 'Integrated React, IPFS, and TensorFlow Lite', 'Won Top 8 at Walmart Sparkathon'],
   },
   {
-    month: 'FEB',
-    year: '2026',
-    title: 'Project Development & Delivery',
-    description: ['Designed and developed smart contracts', 'Built AI-powered application prototype', 'Presented final deliverables and technical report'],
+    month: '2026',
+    year: '',
+    title: 'Open Source & Advanced Projects',
+    description: ['Released Bitcoin tools and Lightning Network simulator', 'Built security platforms and SaaS systems', 'Active in coding competitions and open source'],
   },
 ];
 
@@ -55,7 +55,7 @@ export default function Timeline() {
   return (
     <section id="timeline" className="py-20 px-4 bg-background-light">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold mb-16 text-center text-foreground">IJTB Internship Journey</h2>
+        <h2 className="text-4xl md:text-5xl font-bold mb-16 text-center text-foreground">Learning & Project Journey</h2>
 
         <div className="space-y-8 relative">
           {/* Vertical line */}

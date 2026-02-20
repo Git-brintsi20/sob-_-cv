@@ -43,11 +43,11 @@ export default function Hero() {
         </h1>
 
         <p className="text-xl md:text-2xl text-foreground-muted mb-8 leading-relaxed max-w-3xl mx-auto">
-          Full-Stack Developer • Blockchain & AI Enthusiast • IJTB【BLOCK CHAIN】Developer Internship 2026
+          Computer Science Student • Blockchain & AI Developer • 2026
         </p>
 
         <p className="text-lg text-foreground-muted mb-12 max-w-2xl mx-auto leading-relaxed">
-          Building decentralized applications and AI-powered solutions at GustoDevelopment Co., Ltd. Passionate about leveraging blockchain and artificial intelligence to drive digital transformation and create new market value.
+          Hands-on experience building Ethereum smart contracts, DApps (Solidity, Hardhat), and AI/ML-integrated systems (Python, PyTorch, TensorFlow). Strong in OOP, distributed systems, and backend development. Eager to contribute to real-world Blockchain or AI projects and grow under experienced engineers.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
@@ -58,7 +58,7 @@ export default function Hero() {
               document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' });
             }}
           >
-            View Internship Projects
+            View Flagship Projects
           </Button>
           <Button
             size="lg"
